@@ -1,0 +1,40 @@
+{
+  "name": "fee",
+  "version": "1.0.0",
+  "description": "Summarize the knowledge points related to front end engineering",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitee.com/fujia-blogs/fee.git"
+  },
+  "keywords": [
+    "blogs",
+    "articles",
+    "fujia",
+    "nodejs",
+    "node.js",
+    "javascript"
+  ],
+  "author": {
+    "email": "fujia.site@outlook.com",
+    "name": "fujia",
+    "url": "https://fujia.site"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitee.com/fujia-blogs/fee.git/issues"
+  },
+  "homepage": "https://gitee.com/fujia-blogs/fee.git",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^15.0.0",
+    "commitlint": "^15.0.0",
+    "husky": "^7.0.4"
+  }
+}
