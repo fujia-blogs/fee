@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`genConfig 1`] = `
+Object {
+  "domain": "fujia.site",
+  "port": 6666,
+  "time": Any<Date>,
+  "url": "https://api.fujia.site",
+}
+`;
